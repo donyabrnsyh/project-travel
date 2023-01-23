@@ -1,0 +1,177 @@
+/* Dimension max-width 670px  */
+@media all and (max-width: 670px){
+    .header-logo{
+    font-weight: 700px;
+    color: #658864;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 2.0vw;
+    cursor: default;
+    }
+    .header-mid a{
+    margin-right: 15px;
+    font-size: 12px;
+    color: white;
+    }
+    .header-right{
+    font-size: 12px;
+    margin-top: 25px;
+    }
+    .destination img{
+        border-radius: 30px;
+        width: 180px;
+        height: 180px;
+    }
+    .home{
+        margin-left: auto;
+    }
+    .home h1{
+        font-size: 35px;
+    }  
+    .home p{
+        font-size: 12px;
+    }  
+    .destination p {
+        font-size: 10px;
+    }
+    .isi-head{
+        font-size: 20px;
+    }
+    .isi-list p{
+        font-size: 12px ;
+    }
+    .isi-des{
+        margin: 0 30px;
+    }
+    .logo-tw{
+        border-radius: 50px;
+    }
+    .about-desc h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .about-isi{
+        margin-left: 50px;
+        gap: 15px;
+    }
+    .logo-tw{
+        width: 250px;
+        height: 200px;
+    }
+    .about-desc p{
+        font-size: 12px;
+    }
+    .profile-icon h3{
+        margin: 0;
+        font-size: 12px;
+    }
+    .profile-icon p{
+        font-size: 8px;
+        text-align: left;
+        padding: 5px;
+    }
+
+    .footer-logo{
+        font-weight: 700px;
+        margin-left: 20px;
+        font-size: 1,2vw;
+    }
+    .footer-right{
+        font-size: 12px;
+        padding-top: 22px;
+        margin: 0 30px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .header-logo{
+        font-weight: 700px;
+        color: #658864;
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 2.5vw;
+        }
+        .header-mid a{
+        display: none;
+        }
+        .login{
+            display: none;
+        }
+        .signup{
+            display: none;
+        }
+        .menu-icon{
+        color: white;
+        font-size: 25px;
+        z-index: 10;
+        }
+        .isi-des{
+            display: grid;
+            grid-template-columns: repeat(1,3fr);
+        }
+        .home h1{
+            font-size: 20px;
+        }  
+        .home p{
+            font-size: 12px;
+        }  
+        .destination p {
+            font-size: 10px;
+        }
+        .isi-head{
+            font-size: 20px;
+        }
+        .isi-list p{
+            font-size: 8px ;
+        }
+        .isi-des{
+            margin: 0 30px;
+        }
+        .logo-tw{
+            border-radius: 50px;
+        }
+        .about-desc h1{
+            font-size: 30px;
+            margin-bottom: 5px;
+            margin-top: 0;
+        }
+        .about-isi{
+            margin-left: 10px;
+            gap: 15px;
+        }
+        .logo-tw{
+            width: 150px;
+            height: 150px;
+        }
+        .about-desc p{
+            font-size: 6px;
+        }
+        .profile-icon h3{
+            margin: 0;
+            font-size: 8px;
+        }
+        .profile-icon p{
+            font-size: 6px;
+            text-align: left;
+            padding: 5px;
+        }
+        .profile{
+            gap: 10px;
+            margin-left: 50px;
+        }
+        .profile-icon img{
+            width: 50px;
+            height: 50px;
+        }
+        .footer-logo{
+            font-weight: 700px;
+            margin-left: 20px;
+            font-size: 2.5vw;
+        }
+        .footer-right{
+            font-size: 8px;
+            padding-top: 10px;
+        }
+}
+
